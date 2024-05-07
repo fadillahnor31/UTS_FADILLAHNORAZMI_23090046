@@ -14,10 +14,11 @@ def rekomendasi_BMI(bmi):
     import soal_4
 
 berat_badan = float(input("Masukkan berat badan (kg): "))
-tinggi_badan = float(input("Masukkan tinggi badan (m): "))
+tinggi_badan = float(input("Masukkan tinggi badan (cm): "))
 
 bmi = (soal_4.hitung_bmi(berat_badan, tinggi_badan))
 rekomendasi = (soal_4.rekomendasi_bmi(bmi))
 
 print("BMI Anda:", bmi)
 print("Rekomendasi kesehatan:", rekomendasi)
+    
